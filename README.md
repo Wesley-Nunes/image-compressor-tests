@@ -38,6 +38,7 @@ npm run cypress:open # Execute all tests
 All media used in these tests are free for usage, and the sources are credited below:
 
 - tony.jpg: A picture of my dog.
+- [Purple and orange flowers with orange fruits](https://unsplash.com/photos/purple-and-orange-flowers-with-orange-fruits-Xp--n07JfqE) Photo by [Filipp Romanovski](https://unsplash.com/@filipp_roman_photography) on [Unsplash](https://unsplash.com/)
 - [Pizigani 1367 Chart](https://commons.wikimedia.org/wiki/File:Pizigani_1367_Chart_10MB.jpg)
 - [Human feeding the little squirrel](https://www.pexels.com/video/human-feeding-the-little-squirrel-855289/)
 

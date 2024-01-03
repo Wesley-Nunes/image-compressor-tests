@@ -20,12 +20,12 @@ describe("the core use of the app.", () => {
 
   it("prevents compression of a jpg image bigger than 10Mb.", () => {
     cy.get('[data-test-id="upload-image"]').selectFile(
-      "cypress/fixture/Pizigani_1367_Chart_10MB.jpg"
+      "cypress/fixture/filipp-romanovski-Xp--n07JfqE-unsplash.jpg"
     );
 
     cy.get('[data-test-id="error-message"]').should(
       "have.text",
-      "The file you attempted to upload exceeds the maximum allowed size of 10MB"
+      "File size exceeds 10 MB limit"
     );
   });
 
@@ -36,8 +36,7 @@ describe("the core use of the app.", () => {
 
     cy.get('[data-test-id="error-message"]').should(
       "have.text",
-      `Unsupported file format
-      Accepted formats: JPG, PNG, GIF, or WebP`
+      "Unsupported format: JPG, PNG, GIF, or WebP accepted"
     );
   });
 });
