@@ -24,7 +24,8 @@ npm install # Only required executed one time
 To run the tests, execute the following commands in your terminal:
 
 ```bash
-npm run cypress:open # Execute all tests
+npm run cypress:open # Open cypress
+npm run cypress:headless # Execute all tests headless
 ```
 
 ## <a name="tools"></a>Tools
@@ -39,7 +40,7 @@ All media used in these tests are free for usage, and the sources are credited b
 
 - tony.jpg: A picture of my dog.
 - [Purple and orange flowers with orange fruits](https://unsplash.com/photos/purple-and-orange-flowers-with-orange-fruits-Xp--n07JfqE) Photo by [Filipp Romanovski](https://unsplash.com/@filipp_roman_photography) on [Unsplash](https://unsplash.com/)
-- [Pizigani 1367 Chart](https://commons.wikimedia.org/wiki/File:Pizigani_1367_Chart_10MB.jpg)
+- [A Wild Cherry in flower](https://commons.wikimedia.org/wiki/File:Fr%C3%BChling_bl%C3%BChender_Kirschenbaum.jpg)
 - [Human feeding the little squirrel](https://www.pexels.com/video/human-feeding-the-little-squirrel-855289/)
 
 ## <a name="license"></a>License
