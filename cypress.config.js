@@ -3,7 +3,7 @@ const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
   e2e: {
-    baseUrl: "http://image-compressor.rf.gd",
+    baseUrl: "https://image-compressor.page.gd",
     setupNodeEvents(on, config) {
       on("task", {
         deleteFolder(folderName) {
